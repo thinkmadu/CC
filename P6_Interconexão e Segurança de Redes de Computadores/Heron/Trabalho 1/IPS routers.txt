@@ -1,0 +1,81 @@
+CONEXÃO EM ANEL
+1. Roteador 0 <--> Roteador 1
+R0 (Serial0/1/0): 10.0.1.1
+R1 (Serial0/1/0): 10.0.1.2
+
+2. Roteador 1 <--> Roteador 2
+R1 (Serial0/1/1): 10.0.1.5
+R2 (Serial0/1/0): 10.0.1.6
+
+3. Roteador 2 <--> Roteador 3
+R2 (Serial0/1/1): 10.0.1.9
+R3 (Serial0/1/0): 10.0.1.10
+
+4. Roteador 3 <--> Roteador 4
+R3 (Serial0/1/1): 10.0.1.13
+R4 (Serial0/1/0): 10.0.1.14
+
+5.Roteador 4 <--> Roteador 5
+R4 (Serial0/1/1): 10.0.1.17
+R5 (Serial0/1/0): 10.0.1.18
+
+6. Roteador 5 <--> Roteador 6
+R5 (Serial0/1/1): 10.0.1.21
+R6 (Serial0/1/0): 10.0.1.22
+
+7. Roteador 6 <--> Roteador 7
+R6 (Serial0/1/1): 10.0.1.25
+R7 (Serial0/1/0): 10.0.1.26
+
+8. Roteador 7 <--> Roteador 8
+R7 (Serial0/1/1): 10.0.1.29
+R8 (Serial0/1/0): 10.0.1.30
+
+9. Roteador 8 <--> Roteador 0
+R8 (Serial0/1/1): 10.0.1.33
+R0 (Serial0/1/0): 10.0.1.34
+
+================================
+CONEXÕES EXTRAS
+1. Roteador 1 <--> Roteador 5
+R1 (GiagbitEthernet 0/0): 10.0.1.34
+R5 (GiagbitEthernet 0/0): 10.0.1.35
+
+2. Roteador 2 <--> Roteador 6
+R2 (GiagbitEthernet 0/0): 10.0.1.38
+R6 (GiagbitEthernet 0/0): 10.0.1.39
+
+3. Roteador 3 <--> Roteador 7
+R3 (GiagbitEthernet 0/0): 10.0.1.42
+R7 (GiagbitEthernet 0/0): 10.0.1.43
+
+================================
+REDE DO ROUTER0
+1. PC1:
+IP: 192.168.1.2
+Máscara: 255.255.255.0
+
+2. PC2:
+IP: 192.168.1.3
+Máscara: 255.255.255.0
+
+3. PC3:
+IP: 192.168.1.4
+Máscara: 255.255.255.0
+
+4. PC4:
+IP: 192.168.1.5
+Máscara: 255.255.255.0
+
+5. PC5:
+IP: 192.168.1.6
+Máscara: 255.255.255.0
+
+=================================
+REDE ROUTER1
+
+=================================
+REDE ROUTER2
+
+
+
