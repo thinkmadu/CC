@@ -1,0 +1,21 @@
+ORG 00H
+
+TAB:	DB 3Fh
+	DB 03h
+	DB 5Bh
+	DB 4Fh
+	DB 66h
+	DB 6Ch
+	DB 7Dh
+	DB 47h
+	DB 7Fh
+	DB 6Fh
+
+MOV	A,#00
+MOV	P1,A
+MOV	DPTR, #TAB
+MOVC	A,@A+DPTR
+MOV	P1,A
+
+
+END

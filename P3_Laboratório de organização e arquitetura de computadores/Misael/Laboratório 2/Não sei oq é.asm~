@@ -1,0 +1,21 @@
+ORG 00h ; Reset
+ SJMP INICIO ; Salta para início do programa
+
+ ORG 30h ; Endereço do início do programa
+ INICIO: MOV R0,#30h ; Endereço do início do ...
+ MOV R3,#00
+ SALTO1: MOV A,@R0 ; Leitura da posição do ...
+ MOV B,A
+ MOV A,R3
+ CLR C
+ SUBB A,B
+ JNC SALT02 ; Teste para ver ....
+ MOV R3,B ; Maior recebe valor
+ SALT02: INC R0 ; incrementa ponteiro
+ MOV B,R0
+ MOV A,#40h ; Endereço de fim de ...
+ CLR C
+ SUBB A,B
+ JNC SALTO1 ; Teste de fim de ...
+ SJMP $ ; Fim do programa
+ END 

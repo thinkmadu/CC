@@ -1,0 +1,7 @@
+ORG 	000H
+MOV 	A,#0H
+MOV 	A,#fh
+MOV 	B,#0fh
+MOV 	R0,#0F0H
+POP 	A
+END

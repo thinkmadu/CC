@@ -1,0 +1,9 @@
+# Assembler debug file for MCU 8051 IDE v1.4.10
+# Used assembler: MCU 8051 IDE
+# Date: 04/18/2023
+14D1468A4F6E40B946103D3175530C84 "Laboratório 2/meu código acender leds.asm" 
+0 2 0 117 144 255
+0 3 3 117 160 0
+0 5 6 229 144
+0 6 8 245 160
+0 7 10 128 250

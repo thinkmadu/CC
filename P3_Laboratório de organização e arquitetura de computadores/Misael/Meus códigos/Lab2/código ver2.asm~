@@ -1,0 +1,8 @@
+ORG 	030H
+MOV 	A,#0ffH
+MOV 	B,#023
+
+ORG 	0010
+MOV 	A,#00H
+
+END
