@@ -1,0 +1,4 @@
+Computer Graphics with OpenGL (4th ed.) [Hearn, Baker & Carithers 2013]
+Introduction to computer Graphics
+Processamento Digital de Imagens Ogê Marques Filho
+apostilausp
