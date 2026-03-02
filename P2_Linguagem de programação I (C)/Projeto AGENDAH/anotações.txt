@@ -1,0 +1,15 @@
+AGENDA DE TAREFAS
+
+OBRIGATÓRIO
+1. Criar
+2. Editar
+3. Excluir 
+4. Listar todas as tarefas de uma pessoa ou grupo de pessoas, quantidade de tarefas concluídas/em andamento/a iniciar.
+
+- Fazer estilo kanban (por fazer, fazendo e concluido)
+- Sistema de muda o status da tarefa
+- Manipulação do banco de dados pra adicionar editar e excluir a tarefa selecionada.
+
+1. tarefa 0.
+[ ] tarefa 0.
+[✓] tarefa 0.

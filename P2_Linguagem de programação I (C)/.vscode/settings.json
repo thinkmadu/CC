@@ -1,0 +1,14 @@
+{
+    "files.autoGuessEncoding": true,
+    "C_Cpp.errorSquiggles": "disabled",
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
+        "clang-diagnostic-invalid-source-encoding",
+        "clang-diagnostic-error",
+        "clang-diagnostic-error",
+        "clang-diagnostic-format",
+        "clang-diagnostic-error",
+        "clang-diagnostic-error",
+        "clang-diagnostic-error"
+    ]
+}
